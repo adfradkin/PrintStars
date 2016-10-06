@@ -2,8 +2,8 @@ public class Staircase
 {	public static void main(String[] args)
 	{
 		DownUp(5);
-		
 		System.out.println("---------------");
+		UpDown(5);
 	}
 	
 	public static void UpDown(int n)
@@ -25,7 +25,7 @@ public class Staircase
 	{
 		for(int r = 0; r < n;r++)
 		{
-			for(int c = 0; c < n; c++)
+			for(int c = 0; c < r+1; c++)
 			{
 				System.out.print("*");
 			}
